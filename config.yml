@@ -1,0 +1,10 @@
+---
+test-length: 5
+test-interval: 20
+server-port: 5201
+grafana-address: localhost
+grafana-port: 2003
+tsdb-prefix: latency
+target-hosts:
+  - 8.8.8.8: GoogleNS1
+  - 8.8.4.4:
